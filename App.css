@@ -18,9 +18,7 @@ body {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+/*  NAVBAR */
 
 .navbar {
   background: white;
@@ -77,9 +75,7 @@ body {
 }
 
 
-/* =========================
-   HERO
-========================= */
+/*HERO */
 
 .hero {
   background: #f4f8f8;
@@ -141,9 +137,7 @@ body {
 }
 
 
-/* =========================
-   ARTICLES
-========================= */
+/* ARTICLES*/
 
 .articles-section {
   padding: 60px 30px;
@@ -174,9 +168,7 @@ body {
 }
 
 
-/* =========================
-   ARTICLE CARD
-========================= */
+/*ARTICLE CARD*/
 
 .article-card {
   background: #ffffff;
@@ -281,9 +273,7 @@ body {
 }
 
 
-/* =========================
-   TUTORIALS
-========================= */
+/*TUTORIALS */
 
 .tutorials-section {
   padding: 60px 30px;
@@ -413,9 +403,7 @@ body {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/*FOOTEr */
 
 .site-footer {
   width: 100%;
@@ -526,9 +514,7 @@ body {
 }
 
 
-/* =========================
-   RESPONSIVE
-========================= */
+/*RESPONSIVE*/
 
 @media (max-width: 800px) {
 

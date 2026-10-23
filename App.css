@@ -18,7 +18,9 @@ body {
 }
 
 
-/*  NAVBAR */
+/* 
+   NAVBAR
+ */
 
 .navbar {
   background: white;
@@ -75,7 +77,9 @@ body {
 }
 
 
-/*HERO */
+/* 
+   HERO
+ */
 
 .hero {
   background: #f4f8f8;
@@ -137,7 +141,9 @@ body {
 }
 
 
-/* ARTICLES*/
+/* =========================
+   ARTICLES
+========================= */
 
 .articles-section {
   padding: 60px 30px;
@@ -168,7 +174,9 @@ body {
 }
 
 
-/*ARTICLE CARD*/
+/* =========================
+   ARTICLE CARD
+========================= */
 
 .article-card {
   background: #ffffff;
@@ -273,7 +281,9 @@ body {
 }
 
 
-/*TUTORIALS */
+/* =========================
+   TUTORIALS
+========================= */
 
 .tutorials-section {
   padding: 60px 30px;
@@ -403,24 +413,23 @@ body {
 }
 
 
-/*FOOTEr */
+
+/* =========================
+   FOOTER
+========================= */
 
 .site-footer {
   width: 100%;
 }
 
-
 /* Daily Insider */
 
 .daily-insider {
   background: #eeeeee;
-
   padding: 12px 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   gap: 20px;
 }
 
@@ -436,70 +445,89 @@ body {
 .subscribe-footer input {
   width: 230px;
   padding: 9px;
-
   border: 1px solid #999;
 }
 
 .subscribe-footer button {
   padding: 9px 18px;
-
   border: 1px solid #999;
-
   background: #cccccc;
-
   cursor: pointer;
 }
-
 
 /* Footer main */
 
 .footer-main {
   background: #11999e;
-
-  color: white;
-
-  padding: 35px 12%;
-
+  color: #172f30;
+  padding: 8px 3%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  gap: 60px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 5px;
 }
 
 .footer-column h3 {
-  margin: 0 0 10px;
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .footer-column a {
-  color: white;
+  color: #172f30;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .footer-column a:hover {
   text-decoration: underline;
 }
 
+/* Social media icons */
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-links a {
+  width: 34px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eeeeee;
+  color: #555555;
+  border-radius: 5px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.social-links a:hover {
+  background: #d0d0d0;
+}
 
 /* Footer bottom */
 
 .footer-bottom {
   background: #11999e;
-
-  color: white;
-
+  color: #172f30;
   text-align: center;
-
   padding: 15px 20px 30px;
 }
 
 .footer-bottom h3 {
-  margin-bottom: 15px;
+  margin: 0 0 6px;
+  font-size: 20px;
 }
 
 .legal-links {
@@ -509,37 +537,30 @@ body {
 }
 
 .legal-links a {
-  color: white;
+  color: #172f30;
   text-decoration: none;
+  font-size: 15px;
 }
 
+.legal-links a:hover {
+  text-decoration: underline;
+}
 
-/*RESPONSIVE*/
+/* Responsive */
 
 @media (max-width: 800px) {
-
-  .navbar-container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .articles-container {
-    grid-template-columns: 1fr;
-  }
-
-  .tutorials-container {
-    grid-template-columns: 1fr;
-  }
-
   .footer-main {
     grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 25px 8%;
   }
 
   .daily-insider {
     flex-direction: column;
   }
 
-  .hero-content h1 {
-    font-size: 40px;
+  .legal-links {
+    flex-wrap: wrap;
+    gap: 15px 25px;
   }
 }
